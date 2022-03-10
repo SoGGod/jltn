@@ -1,0 +1,13 @@
+.fa-angle-up{
+    padding: 3px 11.5px;
+    background-color:#324454;
+    border-radius: 50%;
+}
+.fa-angle-up:hover{
+    background-color:#22aad3 ;
+}
+@media (max-width: 975px) {
+    .scroll-button{
+        display: none;
+    }
+}

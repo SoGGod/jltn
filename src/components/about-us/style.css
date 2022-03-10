@@ -1,0 +1,25 @@
+.map-welcome{
+    width: 85%;
+    margin: auto;
+}
+.map-welcome img{
+    width: 300px;
+    height: 380px;
+    float: right;
+}
+.map-welcome p{
+    text-align: justify;
+    font-size: 15px;
+}
+.map-welcome h3{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+.map-welcome h3::after{
+    content: "";
+    display: block; 
+    margin:auto;
+    width: 130px; 
+    padding-top: 7px; 
+    border-bottom: 3px solid #F04849; 
+}

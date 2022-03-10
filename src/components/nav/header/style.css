@@ -1,0 +1,247 @@
+
+.navbar {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  .navbar img{
+      padding-right: 40px;
+  }
+.navbar li{
+    list-style: none;
+}
+  .navbar__link{
+      color: #000;
+      text-decoration: none;
+      padding-left: 40px;
+      text-transform: uppercase;
+      font-weight:700;
+  }
+  @media (max-width: 1210px) {
+    .navbar__link{
+        padding-left: 25px;
+    }
+    .ant-btn-primary i{
+        padding-left: 40px !important;
+    }
+    .navbar img{
+        padding-right: 10px;
+    }
+}
+  .navbar__link:hover {
+    color: #F04849;
+      text-decoration: none;
+  }
+  .navbar__link--active {
+    color: #F04849;
+  }
+  #sicon{
+      cursor: pointer;
+      margin-left: -20px;
+      font-size: 20px;
+  }
+  #input{
+    width: 400px;
+    padding: 10px;
+    border:none;
+    outline:none;
+    color:#fff;
+    border-bottom:2px solid #fff;
+    background-color:#000;
+    font-size: 20px;
+  }
+  .ant-modal-wrap{
+      background-color: #000;
+  }
+.ant-modal-header{
+background-color:#000;
+border-bottom: none;
+}
+.ant-modal-content .anticon svg{
+    margin-top: 30px;
+    font-size: 19px;
+    color:#fff;
+}
+.ant-modal-footer,.ant-modal-body{
+     display: none;
+  }
+  .ant-btn-primary {
+    border-color: transparent;
+    background:transparent;
+    text-shadow:transparent;
+    box-shadow:none;
+}
+.ant-btn-primary i{
+    color: #000;
+    font-size: 20px;
+    padding-left: 60px;
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+    border-color: transparent;
+    background:transparent;
+    text-shadow:transparent;
+    box-shadow:none;
+}
+
+/* dropdown */
+.dropdown{
+    padding: 17px 0px;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-weight:700;
+}
+.fa-chevron-down{
+    color:#F04849;
+}
+.drop-list{
+    width: 230px;
+    margin-left: -40px;
+    margin-top: 15px;
+    padding: 22px;
+    border-top: 2px solid #F04849;
+    z-index: 2;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    display: none;
+}
+.drop-list li{
+    font-size: 13.5px;
+    padding: 6px 1px;
+    font-weight: 500;
+    text-align: left;
+}
+.drop-list li span{
+    margin-top: -5px;
+    margin-left: 8px;
+
+}
+.dropdown:hover .drop-list{
+    display: block;
+}
+.drop-list .slink{
+    color: #000;
+    text-decoration: none;
+}
+.drop-list .slink:hover{
+    color:#F04849;
+    cursor: pointer;
+}
+.drop-list .slink:hover .fa-chevron-right{
+    display: block;
+}
+.dropdown .fa-chevron-right{
+    color:#F04849;
+    display: none;
+}
+
+/* drawer */
+.menuicon{
+    font-size: 27px;
+    display: none;
+}
+.ant-drawer-header-title .anticon-close{
+font-size: 20px;
+color: #000;
+position: absolute;
+right: 2%;
+top: 30px;
+}
+
+.ant-menu-inline{
+border-right:none ;
+}
+.ant-menu-inline .ant-menu-item::after{
+    border-right: none;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #F04849;
+}
+.ant-menu-inline a{
+    font-weight: 500;
+}
+#sub-menu{
+    font-weight: 500;  
+}
+.ant-menu-light .ant-menu-submenu-active{
+    color: #000;
+}
+.ant-menu-submenu-selected {
+    color: #000;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected a{
+    color: #fff;
+}
+
+
+/* sider drop */
+
+.dot{
+    height: 7px;
+    width: 7px;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 4px;
+}
+.dots-link li #icon{
+    color: #F04849;
+    font-size: 15px;
+    padding-right: 8px;
+    padding-top: 15px;
+}
+
+.dots-link .nav-social-link{
+    display: flex;
+}
+.dots-link .nav-social-link li i{
+    color: #F04849;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.dots-link{
+    padding: 13px 25px;
+    background-color: #fff;
+    margin-top: 14px;
+    position:relative;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.three-dots{
+    display: none;
+}
+
+
+@media (max-width: 1075px) {
+    .menuicon{
+        display: block;
+        position: absolute;
+        left: 20px;
+    }
+    .three-dots{
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .search-btn{
+        position: absolute;
+        right: 11%;
+    }
+   .first-nav{
+       display: none;
+   }
+   .navbar__link{
+       display: none;
+   }
+   .dropdown{
+       display: none;
+   }
+}
