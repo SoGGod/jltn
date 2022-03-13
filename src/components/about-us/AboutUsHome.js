@@ -1,12 +1,13 @@
 import React from 'react'
 import './style.css'
+import AboutUs from '../../img/jaltanabout.jpg'
 function AboutUsHome() {
   return (
     <div className="map-welcome pt-3">
       <div className="row w-100 p-3 p-md-3">
         <div className="col-lg-6 d-none d-lg-block">
           <div className="photo">
-            <img src="./images/aboutushome.jpg" alt="welcome__image" className='w-100' />
+            <img src={AboutUs} alt="welcome__image" className='w-100' />
           </div>
         </div>
         <div className="col-lg-6 col-md-12" >

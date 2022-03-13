@@ -1,5 +1,9 @@
 import React from 'react';
 import './styles.css';
+import Banner1 from '../../img/banner1.jpg'
+import Banner2 from '../../img/banner2.jpg'
+import Banner3 from '../../img/banner3.jpg'
+import Banner4 from '../../img/banner4.jpg'
 
 const HeroSection = () => {
 
@@ -12,19 +16,16 @@ const HeroSection = () => {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src="./images/banner1.jpg" className="d-block w-100" alt="..." />
+        <img src={Banner1} className="d-block w-100" alt="..." />
       </div>
       <div className="carousel-item">
-        <img src="./images/banner2.jpg" className="d-block w-100" alt="..." />
+        <img src={Banner2} className="d-block w-100" alt="..." />
       </div>
       <div className="carousel-item">
-        <img src="./images/banner3.jpg" className="d-block w-100" alt="..." />
+        <img src={Banner3} className="d-block w-100" alt="..." />
       </div>
       <div className="carousel-item">
-        <img src="./images/banner3.jpg" className="d-block w-100" alt="..." />
-      </div>
-      <div className="carousel-item">
-        <img src="./images/banner4.jpg" className="d-block w-100" alt="..." />
+        <img src={Banner4} className="d-block w-100" alt="..." />
       </div>
     </div>
     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

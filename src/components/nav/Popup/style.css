@@ -1,0 +1,210 @@
+.release-section{
+    width: 100%;
+    margin:auto ;
+    background-color:#ffff;
+}
+.cds{
+    margin: 30px 5px;
+}
+.release{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.release .category{
+    position: absolute;
+    right:0;
+   font-size:20px;
+   padding:0px 5px;
+   font-weight: bold;
+   background-color: brown;
+   color: yellow;
+}
+.release-section h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #3e2093;
+}
+.release-section h3 span{
+    border-bottom: 2px solid red;
+}
+.release .card p span{
+    font-weight: bold;
+}
+.release .card {
+    width: 300px;
+    height: 450px;
+    background: #000;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+}
+.release .card .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.release .card .image img {
+    width: 100%;
+    transition: .5s;
+}
+.release .card:hover .image img {
+    opacity: .5;
+}
+.release .card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;/*100%*/
+    height: 100%;
+    background: #333366;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.release .card:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.release .card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.release .card .details .center h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.release .card .details .center h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.release .card .details .center p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+
+.release .card button{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: rgba(167, 8, 8, 0.884);
+    color: #fff;
+    font-size: 18px;
+    padding: 3px 8px ;
+}
+
+.r-more-button button{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: rgba(167, 8, 8, 0.884);
+    color: #fff;
+    font-size: 18px;
+    padding: 3px 8px ;
+    margin-top: 40px;
+    width: 130px;
+    height: 40px;
+}
+
+/* welcome */
+.air p{
+    font-family: 'Neonderthaw', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(29, 29, 128);
+    margin-top: -15px;
+}
+.wta p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-left: 150px;
+}
+.wta h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; 
+    color: rgb(29, 29, 128);
+    padding-top: 130px; 
+    padding-left: 150px;  
+}
+.wta h3 span{
+    border-bottom: 2px solid red;
+}
+@media (max-width: 1024px) {
+    .wta h3{
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .wta p{
+        padding-left: 20px;
+    } 
+}
+
+
+/* news and event */
+.event-new{
+    width: 95%;
+    margin: auto;
+}
+.news-event h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; 
+    color: #fff;
+}
+.news-event h3 span{
+    border-bottom: 2px solid red;
+}
+.news-event{
+    background-color:#333366;
+}
+.event-card{
+    background-color: #fff;
+    border-right: 5px solid #333366;
+    margin-bottom: 10px;
+}
+.event-card img{
+    height: 106px;
+    width: 140px;
+}
+.event-card .event-details{
+    padding-left: 10px;
+}
+.event-card h5{
+    padding-top: 10px;
+}
+
+/* modal */
+.modals h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; 
+    color: #333366;
+}
+.modals h3 span{
+    border-bottom: 2px solid red;
+}
+.modals button{
+    border: none !important;
+    outline: none;
+    box-shadow: none;
+    border-color: #fff;
+    color: rgba(167, 8, 8, 0.884);
+} 
+.modals .btn-close:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.modals p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0px 30px;
+}

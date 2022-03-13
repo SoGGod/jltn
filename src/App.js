@@ -6,11 +6,13 @@ import Teams from './components/jaltan core team/Teams';
 import Headers from './components/nav/header/Headers';
 import ScrollButton from './components/nav/scroll/ScrollButton';
 import Footer from './components/nav/footer/Footer';
+import Popup from './components/nav/Popup/Popup';
 
 function App() {
   return (
     <div className="App">
           <Headers/>
+          <Popup/>
           <HeroSection/>
           <AboutUsHome/>
           <Events/>   

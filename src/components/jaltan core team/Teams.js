@@ -1,47 +1,142 @@
 import React from 'react'
 import './style.css'
+import Manish from '../../img/manish Shrestha.jpg'
+import Rajendnra from '../../img/rajenrda KC.jpg'
+import Sanjay from '../../img/Sanjay Shrestha.jpg'
+import Bijaylal from '../../img/Bijay lal Singh.jpg'
+import Ravi from '../../img/Ravi Shrestha.jpg'
+import Sunil from '../../img/Sunil Narayan Joshi.jpg'
+import Aruna from '../../img/Sruna Shakaya.jpg'
+import Bikram from '../../img/Bikram Jugiju Shrestha.jpg'
+import Lilabd from '../../img/Lal Bd Bista.jpg'
+import Prajan from '../../img/Prajan Shrestha.jpg'
+import Purnakaji from '../../img/Purna kaji.jpg'
 const Teams = () => {
   return (
     <div className="meet-our-team pt-5 pb-3 pb-md-5">
     <div className="team-header pb-4">
-      <h3>Meet Our Team</h3>
+      <h3>Executive Board Members, 2021/2023</h3>
     </div>
     <div className="team-section">
       <div className="team">
         <div className="team-card">
           <div className="img">
-            <img src="./images/punakaji.jpg" alt="team__img" />
-          </div>
-          <div className="team-content pt-3">
-            <h5>Puna Kaji Prajapati</h5>
-            <p>President</p>
-          </div>
-        </div>
-        <div className="team-card">
-          <div className="img">
-            <img src="./images/manish.jpg" alt="team__img" />
+            <img src={Manish} alt="team__img" />
           </div>
           <div className="team-content pt-3">
             <h5>Manish Shrestha</h5>
-            <p>Vice President</p>
+            <b><p> President</p></b>
+            <p style={{marginTop:'-10px'}}> Topa International Education Center</p>
           </div>
         </div>
+
         <div className="team-card">
           <div className="img">
-            <img src="./images/rajendra.jpg" alt="team__img" />
+            <img src={Rajendnra} alt="team__img" />
           </div>
           <div className="team-content pt-3">
             <h5>Rajendra K.C</h5>
-            <p>Vice President</p>
+            <b><p> Vice President</p></b>
+            <p style={{marginTop:'-10px'}}> Yokohama Japanese Language Academy</p>
           </div>
         </div>
+
         <div className="team-card">
           <div className="img">
-            <img src="./images/sanjay.jpg" alt="team__img" />
+            <img src={Sanjay} alt="team__img" />
           </div>
           <div className="team-content pt-3">
             <h5>Sanjay Shrestha</h5>
-            <p>General Secretary</p>
+            <b><p>Vice President</p></b>
+            <p style={{marginTop:'-10px'}}> Nozomi Japanese Language School</p>
+          </div>
+        </div>
+
+        <div className="team-card">
+          <div className="img">
+            <img src={Bijaylal} alt="team__img" />
+          </div>
+          <div className="team-content pt-3">
+            <h5>Bijay Lal Singh</h5>
+            <b><p> General Secretary</p></b>
+            <p style={{marginTop:'-10px'}}> Asian Language Institute</p>
+          </div>
+        </div>
+
+        <div className="team-card">
+          <div className="img">
+            <img src={Ravi} alt="team__img" />
+          </div>
+          <div className="team-content pt-3">
+            <h5>Ravi Shrestha</h5>
+            <b><p> Joint Secretary</p></b>
+            <p style={{marginTop:'-10px'}}> Ajisai Nepal Educational Foundation</p>
+          </div>
+        </div>
+
+        <div className="team-card">
+          <div className="img">
+            <img src={Sunil} alt="team__img" />
+          </div>
+          <div className="team-content pt-3">
+            <h5>Sunil Narayan Joshi</h5>
+            <b><p> Treasurer</p></b>
+            <p style={{marginTop:'-10px'}}> Yala Japanese Language Institute</p>
+          </div>
+        </div>
+
+        <div className="team-card">
+          <div className="img">
+            <img src={Aruna} alt="team__img" />
+          </div>
+          <div className="team-content pt-3">
+            <h5>Aruna Shakya</h5>
+            <b><p> Joint Treasurer</p></b>
+            <p style={{marginTop:'-10px'}}> Japanese Language & Education Culture Center</p>
+          </div>
+        </div>
+
+        <div className="team-card">
+          <div className="img">
+            <img src={Bikram} alt="team__img" />
+          </div>
+          <div className="team-content pt-3">
+            <h5>Bikram Jugiju Shrestha</h5>
+            <b><p> Executive Member</p></b>
+            <p style={{marginTop:'-10px'}}> Quality Circle Educational Institute</p>
+          </div>
+        </div>
+
+        <div className="team-card">
+          <div className="img">
+            <img src={Lilabd} alt="team__img" />
+          </div>
+          <div className="team-content pt-3">
+            <h5>Lila Bahadur Bista</h5>
+            <b><p> Executive Member</p></b>
+            <p style={{marginTop:'-10px'}}> Nepal Japanese International Education School</p>
+          </div>
+        </div>
+
+        <div className="team-card">
+          <div className="img">
+            <img src={Prajan} alt="team__img" />
+          </div>
+          <div className="team-content pt-3">
+            <h5>Prajan Shrestha</h5>
+            <b><p> Executive Member</p></b>
+            <p style={{marginTop:'-10px'}}> Hizasi Japanese Language Institute</p>
+          </div>
+        </div>
+
+        <div className="team-card">
+          <div className="img">
+            <img src={Purnakaji} alt="team__img" />
+          </div>
+          <div className="team-content pt-3">
+            <h5>Purna Kaji Prajapati</h5>
+            <b><p> IPP</p></b>
+            <p style={{marginTop:'-10px'}}> Bishwo Bhasa Campus</p>
           </div>
         </div>
       </div>

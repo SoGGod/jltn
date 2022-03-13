@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import logo from '../../../img/logo.png'
 import './style.css'
 
@@ -15,7 +14,7 @@ function Footer() {
             <div className="lower">
               <div className="topic">Contact us</div>
               <div className="address">
-                <a href="#"><i className="fas fa-home" />Bagbazar, Kathmandu</a>
+                <a href="#"><i className="fas fa-home" />Exhibition Road, Kathmandu, Nepal</a>
               </div>
               <div className="phone">
                 <a href="#"><i className="fas fa-phone-volume" />+977-01-1234567</a>
