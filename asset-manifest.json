@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/jltn/static/css/main.85c7b202.css",
-    "main.js": "/jltn/static/js/main.3ef9d70e.js",
+    "main.css": "/jltn/static/css/main.7615dfbb.css",
+    "main.js": "/jltn/static/js/main.4ee2cafb.js",
     "static/js/787.0e2b2c01.chunk.js": "/jltn/static/js/787.0e2b2c01.chunk.js",
+    "static/media/rajenrda KC.jpg": "/jltn/static/media/rajenrda KC.e416ca279907e221cbbd.jpg",
+    "static/media/banner3.jpg": "/jltn/static/media/banner3.4fbf582c268185667a65.jpg",
+    "static/media/banner1.jpg": "/jltn/static/media/banner1.b7c152f99e79ad9cbe44.jpg",
+    "static/media/banner4.jpg": "/jltn/static/media/banner4.a9effb3a801df5ec5caf.jpg",
+    "static/media/banner2.jpg": "/jltn/static/media/banner2.419c6fd14bfe2be3ec4f.jpg",
+    "static/media/Bijay lal Singh.jpg": "/jltn/static/media/Bijay lal Singh.b9cc3cb35ff82ad8e0ad.jpg",
+    "static/media/Purna kaji.jpg": "/jltn/static/media/Purna kaji.6425b2a1b9b9fce513f6.jpg",
+    "static/media/jaltanabout.jpg": "/jltn/static/media/jaltanabout.5b4ca6cb5ed82c7fe6c3.jpg",
     "static/media/logo.png": "/jltn/static/media/logo.449bc9ec229fd6ff8e0e.png",
+    "static/media/Lal Bd Bista.jpg": "/jltn/static/media/Lal Bd Bista.1ceebe14be421def7454.jpg",
+    "static/media/Sruna Shakaya.jpg": "/jltn/static/media/Sruna Shakaya.e8459fe4009bdd319abd.jpg",
+    "static/media/Prajan Shrestha.jpg": "/jltn/static/media/Prajan Shrestha.4b970e3f34932384acec.jpg",
+    "static/media/Ravi Shrestha.jpg": "/jltn/static/media/Ravi Shrestha.16bc79ac565228647085.jpg",
+    "static/media/Sunil Narayan Joshi.jpg": "/jltn/static/media/Sunil Narayan Joshi.1ac77ae71a7db01a26dc.jpg",
+    "static/media/manish Shrestha.jpg": "/jltn/static/media/manish Shrestha.10e298860c2c8c87ea33.jpg",
+    "static/media/Bikram Jugiju Shrestha.jpg": "/jltn/static/media/Bikram Jugiju Shrestha.c6aded1d4151e249b408.jpg",
+    "static/media/Sanjay Shrestha.jpg": "/jltn/static/media/Sanjay Shrestha.7972b30a81042a82c99d.jpg",
     "index.html": "/jltn/index.html",
-    "main.85c7b202.css.map": "/jltn/static/css/main.85c7b202.css.map",
-    "main.3ef9d70e.js.map": "/jltn/static/js/main.3ef9d70e.js.map",
+    "main.7615dfbb.css.map": "/jltn/static/css/main.7615dfbb.css.map",
+    "main.4ee2cafb.js.map": "/jltn/static/js/main.4ee2cafb.js.map",
     "787.0e2b2c01.chunk.js.map": "/jltn/static/js/787.0e2b2c01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85c7b202.css",
-    "static/js/main.3ef9d70e.js"
+    "static/css/main.7615dfbb.css",
+    "static/js/main.4ee2cafb.js"
   ]
 }
